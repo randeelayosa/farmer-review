@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d8f2964b8ed19df9681b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "416fb44a690427f8ba2b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -43027,12 +43027,14 @@ var render = function render(Component) {
 };
 
 render(__WEBPACK_IMPORTED_MODULE_2__components_App__["default"]);
-
+/*eslint-disable */
 if (true) {
   module.hot.accept("./src/components/App.jsx", function(__WEBPACK_OUTDATED_DEPENDENCIES__) { /* harmony import */ __WEBPACK_IMPORTED_MODULE_2__components_App__ = __webpack_require__("./src/components/App.jsx"); (function () {
     render(__WEBPACK_IMPORTED_MODULE_2__components_App__["default"]);
   })(__WEBPACK_OUTDATED_DEPENDENCIES__); });
 }
+/*eslint-enable */
+
 ;
 
 var _temp = function () {
