@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Header(){
-    return (
-        <h1>Help Queue</h1>
-    );
+function Header() {
+
+  return (
+    <div>
+      <h1>This One Dude's Produce</h1>
+    </div>
+  );
 }
 
 export default Header;

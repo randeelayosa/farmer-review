@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "416fb44a690427f8ba2b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2a964b959c9dd3712b49"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -42840,18 +42840,15 @@ if(true) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__TicketList__ = __webpack_require__("./src/components/TicketList.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Header__ = __webpack_require__("./src/components/Header.jsx");
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__MainComponent__ = __webpack_require__("./src/components/MainComponent.jsx");
 
 
 
 function App() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    "div",
+    'div',
     null,
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Header__["a" /* default */], null),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__TicketList__["a" /* default */], null)
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__MainComponent__["a" /* default */], null)
   );
 }
 
@@ -42864,9 +42861,80 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(App, "App", "/Users/rfk/Desktop/react-v2/src/components/App.jsx");
+  __REACT_HOT_LOADER__.register(App, 'App', '/Users/Guest/Desktop/React-webpack-v1/src/components/App.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/rfk/Desktop/react-v2/src/components/App.jsx");
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/App.jsx');
+}();
+
+;
+
+/***/ }),
+
+/***/ "./src/components/Calendar.jsx":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Month__ = __webpack_require__("./src/components/Month.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Days__ = __webpack_require__("./src/components/Days.jsx");
+
+
+
+
+function Calendar() {
+
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Month__["a" /* default */], null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Days__["a" /* default */], null)
+  );
+}
+
+var _default = Calendar;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Calendar, 'Calendar', '/Users/Guest/Desktop/React-webpack-v1/src/components/Calendar.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/Calendar.jsx');
+}();
+
+;
+
+/***/ }),
+
+/***/ "./src/components/Days.jsx":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+function Days() {
+
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', null);
+}
+
+var _default = Days;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Days, 'Days', '/Users/Guest/Desktop/React-webpack-v1/src/components/Days.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/Days.jsx');
 }();
 
 ;
@@ -42882,10 +42950,15 @@ var _temp = function () {
 
 
 function Header() {
+
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    "h1",
+    'div',
     null,
-    "Help Queue"
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'h1',
+      null,
+      'This One Dude\'s Produce'
+    )
   );
 }
 
@@ -42898,57 +42971,41 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Header, "Header", "/Users/rfk/Desktop/react-v2/src/components/Header.jsx");
+  __REACT_HOT_LOADER__.register(Header, 'Header', '/Users/Guest/Desktop/React-webpack-v1/src/components/Header.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/rfk/Desktop/react-v2/src/components/Header.jsx");
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/Header.jsx');
 }();
 
 ;
 
 /***/ }),
 
-/***/ "./src/components/Ticket.jsx":
+/***/ "./src/components/MainComponent.jsx":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__("./node_modules/prop-types/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Header__ = __webpack_require__("./src/components/Header.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Calendar__ = __webpack_require__("./src/components/Calendar.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Veggies__ = __webpack_require__("./src/components/Veggies.jsx");
 
 
 
-function Ticket(props) {
+
+
+function MainComponent() {
+
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    "div",
+    'div',
     null,
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "h3",
-      null,
-      props.location,
-      " - ",
-      props.names
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      "p",
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "em",
-        null,
-        props.issue
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", null)
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Header__["a" /* default */], null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Calendar__["a" /* default */], null),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Veggies__["a" /* default */], null)
   );
 }
 
-Ticket.propTypes = {
-  names: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string.isRequired,
-  location: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string.isRequired,
-  issue: __WEBPACK_IMPORTED_MODULE_1_prop_types___default.a.string
-};
-
-var _default = Ticket;
+var _default = MainComponent;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
@@ -42957,33 +43014,29 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Ticket, "Ticket", "/Users/rfk/Desktop/react-v2/src/components/Ticket.jsx");
+  __REACT_HOT_LOADER__.register(MainComponent, 'MainComponent', '/Users/Guest/Desktop/React-webpack-v1/src/components/MainComponent.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/rfk/Desktop/react-v2/src/components/Ticket.jsx");
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/MainComponent.jsx');
 }();
 
 ;
 
 /***/ }),
 
-/***/ "./src/components/TicketList.jsx":
+/***/ "./src/components/Month.jsx":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Ticket__ = __webpack_require__("./src/components/Ticket.jsx");
 
 
+function Month() {
 
-function TicketList() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__Ticket__["a" /* default */], {
-    location: "3A",
-    names: "Thato and Haley",
-    issue: "Firebase will not save record!" });
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', null);
 }
 
-var _default = TicketList;
+var _default = Month;
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
 
@@ -42992,9 +43045,129 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TicketList, "TicketList", "/Users/rfk/Desktop/react-v2/src/components/TicketList.jsx");
+  __REACT_HOT_LOADER__.register(Month, 'Month', '/Users/Guest/Desktop/React-webpack-v1/src/components/Month.jsx');
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/rfk/Desktop/react-v2/src/components/TicketList.jsx");
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/Month.jsx');
+}();
+
+;
+
+/***/ }),
+
+/***/ "./src/components/VeggieItems.jsx":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+function VeggieItems() {
+
+   var availableProduce = [{
+      month: "January",
+      selection: ["Apples", "Hazelnuts", "Pears", "Garlic", "Mushrooms", "Onions", "Potatoes", "Turnips"]
+   }, {
+      month: "February",
+      selection: ["Apples", "Hazelnuts", "Pears", "Garlic", "Mushrooms", "Onions", "Potatoes"]
+   }, {
+      month: "March",
+      selection: ["Apples", "Hazelnuts", "Pears", "Rhubarb", "Garlic", "Mushrooms", "Onions", "Potatoes"]
+   }, {
+      month: "April",
+      selection: ["Apples", "Hazelnuts", "Pears", "Rhubarb", "Asparagus", "Garlic", "Lettuce", "Mushrooms", "Onions", "Potatoes"]
+   }, {
+      month: "May",
+      selection: ["Apples", "Hazelnuts", "Pears", "Rhubarb", "Asparagus", "Cauliflower", "Garlic", "Lettuce", "Potatoes", "Radishes"]
+   }, {
+      month: "June",
+      selection: ["Apples", "Hazelnuts", "Pears", "Rhubarb", "Blackberries", "Cherries", "Raspberries", "Strawberries", "Asparagus", "Broccoli", "Cauliflower", "Kohlrabi", "Lettuce", "Mushrooms", "Potatoes", "Radishes", "Squash"]
+   }, {
+      month: "July",
+      selection: ["Apples", "Hazelnuts", "Pears", "Rhubarb", "Apricots", "Blackberries", "Blueberries", "Cherries", "Melons", "Nectarines", "Peaches", "Raspberries", "Strawberries", "Tomatoes", "Beets", "Broccoli", "Brussel Sprouts", "Cabbage", "Carrots", "Cauliflower", "Cucumber", "Eggplant", "Garlic", "Green Beans", "Kohlrabi", "Lettuce", "Mushrooms", "Potatoes", "Radishes", "Squash", "Turnips"]
+   }, {
+      month: "August",
+      selection: ["Apples", "Apricots", "Blackberries", "Blueberries", "Cherries", "Melons", "Nectarines", "Peaches", "Pears", "Plums", "Raspberries", "Rhubarb", "Strawberries", "Tomatoes", "Beets", "Broccoli", "Brussel Sprouts", "Cabbage", "Carrots", "Cauliflower", "Corn", "Cucumber", "Eggplant", "Garlic", "Green Beans", "Kohlrabi", "Lettuce", "Mushrooms", "Onions", "Peas", "Peppers", "Potatoes", "Radishes", "Squash", "Turnips"]
+   }, {
+      month: "September",
+      selection: ["Apples", "Blueberries", "Grapes", "Melons", "Peaches", "Pears", "Plums", "Raspberries", "Tomatoes", "Broccoli", "Brussel Sprouts", "Cabbage", "Carrots", "Cauliflower", "Corn", "Cucumber", "Eggplant", "Garlic", "Green Beans", "Kohlrabi", "Lettuce", "Mushrooms", "Onions", "Peas", "Peppers", "Potatoes", "Radishes", "Squash", "Turnips"]
+   }, {
+      month: "October",
+      selection: ["Apples", "Grapes", "Hazelnuts", "Melons", "Peaches", "Pears", "Tomatoes", "Broccoli", "Brussel Sprouts", "Cabbage", "Carrots", "Cauliflower", "Corn", "Cucumber", "Eggplant", "Garlic", "Green Beans", "Kohlrabi", "Lettuce", "Mushrooms", "Onions", "Peas", "Peppers", "Potatoes", "Pumpkins", "Radishes", "Squash", "Turnips"]
+   }, {
+      month: "November",
+      selection: ["Apples", "Hazelnuts", "Pears", "Broccoli", "Carrots", "Cauliflower", "Garlic", "Mushrooms", "Onions", "Potatoes", "Squash", "Turnips"]
+   }, {
+      month: "December",
+      selection: ["Apples", "Hazelnuts", "Pears", "Broccoli", "Carrots", "Cauliflower", "Garlic", "Mushrooms", "Onions", "Potatoes", "Turnips"]
+   }];
+
+   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", null);
+}
+
+var _default = VeggieItems;
+/* unused harmony default export */ var _unused_webpack_default_export = (_default);
+
+// {availableProduce.map((month, index) =>
+//   // <Month
+// )}
+
+;
+
+var _temp = function () {
+   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+      return;
+   }
+
+   __REACT_HOT_LOADER__.register(VeggieItems, "VeggieItems", "/Users/Guest/Desktop/React-webpack-v1/src/components/VeggieItems.jsx");
+
+   __REACT_HOT_LOADER__.register(_default, "default", "/Users/Guest/Desktop/React-webpack-v1/src/components/VeggieItems.jsx");
+}();
+
+;
+
+/***/ }),
+
+/***/ "./src/components/Veggies.jsx":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__VeggieItems__ = __webpack_require__("./src/components/VeggieItems.jsx");
+
+
+
+function Veggies() {
+
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    null,
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'h1',
+      null,
+      'This One Dude\'s Produce'
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'select',
+      null,
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('option', null)
+    )
+  );
+}
+
+var _default = Veggies;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Veggies, 'Veggies', '/Users/Guest/Desktop/React-webpack-v1/src/components/Veggies.jsx');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Guest/Desktop/React-webpack-v1/src/components/Veggies.jsx');
 }();
 
 ;
@@ -43042,7 +43215,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(render, 'render', '/Users/rfk/Desktop/react-v2/src/index.jsx');
+  __REACT_HOT_LOADER__.register(render, 'render', '/Users/Guest/Desktop/React-webpack-v1/src/index.jsx');
 }();
 
 ;
