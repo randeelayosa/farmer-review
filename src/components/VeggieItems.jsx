@@ -281,10 +281,11 @@ function VeggieItems() {
           key={index}/>
       )}
       <style jsx>{`
-        div{
-          display: flex;
-          justify-content: space-around;
-        }
+          div{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+          }
       `}</style>
     </div>
 
