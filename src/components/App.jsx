@@ -11,6 +11,9 @@ function App(){
             margin: 0;
             padding: 0;
           }
+          body{
+            background-image: url('./assets/img/banner.jpg');
+          }
         `}</style>
     </div>
   );

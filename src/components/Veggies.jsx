@@ -3,10 +3,10 @@ import React from 'react';
 function Veggies(props) {
   return (
     <div>
-    <section>
-      <h1>{props.month}</h1>
-        {props.selection.map((a, index) =>
-          <p key={index}>{a}</p>
+      <section>
+        <h1>{props.month}</h1>
+          {props.selection.map((a, index) =>
+            <p key={index}>{a}</p>
         )}
       </section>
       <style jsx>{`
